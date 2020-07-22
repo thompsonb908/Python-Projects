@@ -1,0 +1,12 @@
+{
+    "bank": [
+        {
+            "name": "Test",
+            "bank": "",
+            "account-num": "",
+            "routing-num": "",
+            "website": "",
+            "balance": 0
+        }
+    ]
+}
