@@ -1,6 +1,7 @@
 # hello-world.py
 # Gui based hello world program
 
-import PySimpleGUI as sg
+import tkinter as tk
 
-sg.Window(title='Hello World!',layout=[[]],margins=(100,50)).read()
+
+window = tk.Tk()
