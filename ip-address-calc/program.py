@@ -1,4 +1,4 @@
-from functions import *
+from functions import splitInput, stringToBinary,calcBroadcastAddress,calcNetworkAddress,calcSubnetMask
 
 ip, mask = splitInput(input('Enter a ip and mask with noataion a.b.c.d/e: '))
 
