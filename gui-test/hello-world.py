@@ -1,11 +1,11 @@
 # hello-world.py
 # Gui based hello world program
 
-from tkinter import *
+import tkinter as tk
 
-window = Tk()
+window = tk.Tk()
 
-label1 = Label(
+label1 = tk.Label(
     text = "Hello, Tkinter",
     fg="white",
     bg="black",
@@ -13,11 +13,11 @@ label1 = Label(
     height=10
 )
 
-label2 = Label(
+label2 = tk.Label(
     text="Name"
 )
 
-button = Button(
+button = tk.Button(
     text="Click me!",
     width=25,
     height=5,
@@ -25,7 +25,7 @@ button = Button(
     fg='yellow'
 )
 
-entry = Entry()
+entry = tk.Entry()
 
 # label1.pack()
 # button.pack()
@@ -33,5 +33,3 @@ label2.pack()
 entry.pack()
 
 window.mainloop()
-name = entry.get()
-print(name)
