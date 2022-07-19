@@ -1,3 +1,4 @@
 [submodule "BlackHatPython"]
 	path = BlackHatPython
 	url = https://github.com/thompsonb908/BlackHatPython
+	branch = master
